@@ -313,7 +313,7 @@ export default function App() {
                 hidden: { opacity: 0, y: 30 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } }
               }}
-              className="font-display font-extrabold tracking-tight uppercase leading-[0.9] text-5xl sm:text-6xl lg:text-[5.4rem] max-w-3xl mb-4"
+              className="font-display font-extrabold tracking-tight uppercase leading-[1.15] sm:leading-[1.0] lg:leading-[0.95] text-4xl sm:text-6xl lg:text-[5.4rem] max-w-3xl mb-4"
             >
               NIEOCZEKIWANY BRAK MOCY? <span className="text-[#CC2200]">PRZYWIEŹ DO NAS.</span>
             </motion.h1>
