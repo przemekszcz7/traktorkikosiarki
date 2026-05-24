@@ -1,0 +1,6 @@
+{
+  "name": "Traktorki Kosiarki Jasło",
+  "description": "Profesjonalna naprawa, sprzedaż i transport traktorków kosiarek w Jaśle i okolicach.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
