@@ -255,16 +255,16 @@ export default function App() {
       {/* RED ACCENT LINE span */}
       <div className="h-[1px] bg-[#E0E0E0] w-full" />
 
-      {/* HERO REDESIGN - Dark, Content bottom-left, asymmetric spacing. Minimal, Professional */}
-      <section id="hero" className="relative h-[85vh] min-h-[580px] bg-[#1A1A1A] text-white overflow-hidden flex flex-col justify-end">
+      {/* HERO SECTION - Dark, Minimal, Compact Spacing without excessive vertical gap above heading */}
+      <section id="hero" className="relative bg-[#1A1A1A] text-white overflow-hidden py-14 lg:py-24">
         
         {/* Background outline/faded word pattern representation */}
-        <div className="absolute top-10 right-10 select-none opacity-[0.03] text-white font-display font-extrabold text-[12vw] tracking-wider leading-none">
+        <div className="absolute top-8 right-10 select-none opacity-[0.03] text-white font-display font-extrabold text-[12vw] tracking-wider leading-none pointer-events-none">
           JASŁO
         </div>
 
         {/* Technical silhouette Faint Vector (1/4 total SVG in page) */}
-        <div className="absolute top-12 right-12 w-1/3 h-1/2 opacity-[0.05] pointer-events-none hidden lg:block select-none">
+        <div className="absolute top-10 right-12 w-1/3 h-1/2 opacity-[0.04] pointer-events-none hidden lg:block select-none">
           <svg viewBox="0 0 100 65" className="w-full h-full text-white" stroke="currentColor" fill="none" strokeWidth="0.3">
             <rect x="20" y="30" width="55" height="15" rx="1" />
             <circle cx="32" cy="45" r="9" />
@@ -275,11 +275,11 @@ export default function App() {
         </div>
 
         {/* Pure design section label */}
-        <div className="absolute top-12 left-10 font-mono text-zinc-600 text-[10px] tracking-widest uppercase pb-1 border-b border-zinc-800">
+        <div className="absolute top-6 left-6 sm:left-10 md:top-8 font-mono text-zinc-600 text-[9px] sm:text-[10px] tracking-widest uppercase pb-1 border-b border-zinc-800 hidden sm:block">
           PROFESJONALNY SERWIS MECHANICZNY
         </div>
 
-        {/* Content bottom-left grid */}
+        {/* Content grid with balanced compact margins */}
         <motion.div 
           initial="hidden"
           animate="visible"
@@ -292,7 +292,7 @@ export default function App() {
               }
             }
           }}
-          className="max-w-7xl mx-auto w-full px-6 pb-16 pt-24 z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-end"
+          className="max-w-7xl mx-auto w-full px-6 pt-12 sm:pt-16 pb-6 z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
         >
           
           {/* Main heading */}
